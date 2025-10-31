@@ -16,9 +16,7 @@ Each environment follows best practices for reliability, rollback, and dynamic c
 - [NSSM](https://nssm.cc/download) installed (Non-Sucking Service Manager)
 - The Maven project successfully builds a `.jar` file
 
----
-
-### 🏗️ Deployment Script (`deploy_maven_service.bat`)
+### 🏗️ Build + Deployment Script (`deploy_maven_service.bat`)
 
 This batch script automates:
 1. Moving the built JAR file from Jenkins workspace
@@ -26,6 +24,7 @@ This batch script automates:
 3. Reinstalling it using NSSM
 4. Starting it with proper logging
 
+---
 
 ### 🐧 Linux CI/CD for Dockerized Applications
 🧰 Prerequisites
